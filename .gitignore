@@ -1,19 +1,18 @@
-# Created by https://www.toptal.com/developers/gitignore/api/phpunit
-# Edit at https://www.toptal.com/developers/gitignore?templates=phpunit
+# Build and Release Folders
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
 
-### PHPUnit ###
-# Covers PHPUnit
-# Reference: https://phpunit.de/
+# Other files and folders
+.settings/
 
-# Generated files
-.phpunit.result.cache
-.phpunit.cache
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
 
-# PHPUnit
-/app/phpunit.xml
-/phpunit.xml
-
-# Build data
-/build/
-
-# End of https://www.toptal.com/developers/gitignore/api/phpunit
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
